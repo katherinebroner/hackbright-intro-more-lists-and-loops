@@ -19,10 +19,17 @@
 #     else:
 #         print i
 
-fruits = ["apples", "oranges", "bananas"]
+#fruits = ["apples", "oranges", "bananas"]
 # for i in fruits:
 #     print i,
 
+#for i in range(len(fruits)):
+#    print fruits[i]
 
-for i in range(len(fruits)):
-    print fruits[i]
+def sum_nums(num):
+    result = 0
+    for i in range(0,num):
+        result = result + i
+    return result
+
+print sum_nums(4)
