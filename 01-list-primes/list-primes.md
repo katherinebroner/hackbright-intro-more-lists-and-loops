@@ -12,15 +12,27 @@ cannot add a non-list item to a list
 
 4. Commit your code.
 4. Fix the error (if you got one), so that 5 will be added to the list.
-5. Use the statement `primes.append(7,11)` to add the next two prime numbers to the primes list. What happens?
-6. If you got an error, what does this error mean?
-7. Use the statement `primes.append([7,11])` to add the next two prime numbers to the primes list. What happens? (Hint: you may have to print primes to see)
+
+5. Use the statement `primes.append(7,11)` to add the next two prime numbers to the primes list. What happens? error message
+
+6. If you got an error, what does this error mean? append method takes only one argument
+
+7. Use the statement `primes.append([7,11])` to add the next two prime numbers to the primes list. What happens? (Hint: you may have to print primes to see) holds 7 and 11 as a separate list in the 3rd index spot. [2,3,5,[7,11]]
+
 8. Use the `.pop()` method on primes to remove this erroneous entry.
+
 9. Commit your code.
+
 9. Fix the above statement and the `.append()` method twice to properly add 7 and 11 to the primes list.
 10. Use the statement `primes.extend(13,17)` to add the next two prime numbers to the primes list. What happens? 
-11. If you got an error, what does this error mean?
-12. Use the statement `primes.extend(13,17)` to add the next two prime numbers to the primes list. What happens? 
-13. Fix the above statement to properly use the `.extend()` method to add 13 and 17 to the list.
+
+error - extend method only takes one argument
+
+11. If you got an error, what does this error mean? can't add a list via the extend method, as it cannot accept >1 argument
+
+12. Use the statement `primes.extend([13,17])` to add the next two prime numbers to the primes list. What happens? 
+
+it works
+
 
 *** A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
